@@ -72,4 +72,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_merkkijonoesitys(self):
         mjono = self.varasto.__str__()
-        self.assertAlmostEqual(mjono, 'saldo = 0, vielä tilaa 10')
+        self.assertAlmostEqual(mjono, 'saldo = 10, vielä tilaa 10')
